@@ -1,0 +1,27 @@
+{
+  "name": "todoserver",
+  "version": "1.0.0",
+  "description": "Learning REST",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KhanShaheb34/ToDoApp-REST.git"
+  },
+  "author": "KhanShaheb",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KhanShaheb34/ToDoApp-REST/issues"
+  },
+  "homepage": "https://github.com/KhanShaheb34/ToDoApp-REST#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.4.0",
+    "mongoose": "^5.8.1"
+  }
+}
