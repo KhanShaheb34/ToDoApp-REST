@@ -4,7 +4,8 @@
   "description": "Learning REST",
   "main": "server.js",
   "scripts": {
-    "test": "node server"
+    "test": "node server",
+    "start": "nodemon server"
   },
   "repository": {
     "type": "git",
@@ -20,8 +21,8 @@
     "nodemon": "^2.0.2"
   },
   "dependencies": {
+    "body-parser": "^1.19.0",
     "express": "^4.17.1",
-    "mongodb": "^3.4.0",
     "mongoose": "^5.8.1"
   }
 }
