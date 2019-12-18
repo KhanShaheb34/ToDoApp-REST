@@ -6,7 +6,7 @@ const mongoose = require("mongoose");
 const bodyPerser = require("body-parser");
 
 // requiring exported objects
-const todoTask = require("./api/models/todoModel");
+require("./api/models/todoModel");
 const todoRoute = require("./api/routes/todoRoute");
 
 // setting up database

@@ -14,9 +14,9 @@ const routes = app => {
     .post(todoList.createTask);
   app
     .route("/task/:taskId")
-    .get(/*Read task*/)
-    .put(/*Update task*/)
-    .delete(/*Delete task*/);
+    .get(todoList.singleTask)
+    .put(todoList.updateTask)
+    .delete(todoList.deleteTask);
 };
 
 // exporting the route
