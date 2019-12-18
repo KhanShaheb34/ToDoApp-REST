@@ -4,10 +4,11 @@ Just learning REST with Node and MongoDB
 ### To run the server:
 * Clone/Download the repository
 * Open terminal inside the downloaded repository folder
-* run 
+* Run 
 
   `npm i && npm i --dev`
-* run
+* Install and run `mongod` and `mongo`
+* Run
 
   `yarn start`
 
